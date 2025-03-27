@@ -21,6 +21,6 @@ use Carbon\Carbon;
 
  echo $twig->render('horario.html', [
     'titulo' => 'Horário',
-    'data' => '$data',
-    'amanha' => '$dataAdd'
+    'data' => $data,
+    'amanha' => $dataAdd
 ]);
