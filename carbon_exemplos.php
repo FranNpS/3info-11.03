@@ -40,3 +40,9 @@ $nasci = Carbon::createFromDate(2008, 1, 9);
 
 echo Carbon::now()->diff($nasci);
 
+
+
+$data_aleatoria = '2023-04-05';
+$data = Carbon::parse($data_aleatoria);
+echo '<br>';
+echo $data->day();
